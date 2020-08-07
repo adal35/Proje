@@ -1,0 +1,87 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-07T03:10:47.220Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5887726500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Impl.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Test Home Page Google",
+        "description": "",
+        "id": "a-description;test-home-page-google",
+        "after": [
+          {
+            "result": {
+              "duration": 659327800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Impl.Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1534043900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to Google home page",
+            "match": {
+              "location": "Step_Impl.Home_page_impl.user_navigates_to_Google_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2981823000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User searches for something",
+            "match": {
+              "location": "Step_Impl.Home_page_impl.user_searches_for_something()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85119600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verifies that",
+            "match": {
+              "location": "Step_Impl.Home_page_impl.verifies_that()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "A description",
+    "description": "",
+    "id": "a-description",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Home_Page.feature",
+    "tags": []
+  }
+]
